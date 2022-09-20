@@ -1,0 +1,24 @@
+.container {
+  width: 100vw;
+  height: 82vh;
+  background-color: darkslategray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container button {
+  background-color: teal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+.container button:hover {
+  dow: 3px 4px 2px rgb(22, 21, 21) inset;
+}
